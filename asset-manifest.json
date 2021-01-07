@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bitebox-pages/static/css/main.078dc6f9.chunk.css",
-    "main.js": "/bitebox-pages/static/js/main.736a4e3e.chunk.js",
-    "main.js.map": "/bitebox-pages/static/js/main.736a4e3e.chunk.js.map",
+    "main.js": "/bitebox-pages/static/js/main.ba0db8cb.chunk.js",
+    "main.js.map": "/bitebox-pages/static/js/main.ba0db8cb.chunk.js.map",
     "runtime-main.js": "/bitebox-pages/static/js/runtime-main.c339abac.js",
     "runtime-main.js.map": "/bitebox-pages/static/js/runtime-main.c339abac.js.map",
     "static/css/2.8cebfa1f.chunk.css": "/bitebox-pages/static/css/2.8cebfa1f.chunk.css",
@@ -33,6 +33,6 @@
     "static/css/2.8cebfa1f.chunk.css",
     "static/js/2.5c1f8e1c.chunk.js",
     "static/css/main.078dc6f9.chunk.css",
-    "static/js/main.736a4e3e.chunk.js"
+    "static/js/main.ba0db8cb.chunk.js"
   ]
 }
