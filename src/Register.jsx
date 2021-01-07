@@ -3,7 +3,7 @@ import Avatar from "@material-ui/core/Avatar";
 import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import TextField from "@material-ui/core/TextField";
-import { Link as RouterLink } from "react-router-dom";
+import Link from "@material-ui/core/Link";
 import Grid from "@material-ui/core/Grid";
 import LockOutlinedIcon from "@material-ui/icons/LockOutlined";
 import Typography from "@material-ui/core/Typography";
@@ -263,19 +263,9 @@ export default function Register(props) {
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
-            <Button
-          {...{
-            key: "Already have an account? Log in",
-            color: "inherit",
-            to: "/login",
-            component: RouterLink,
-            className: "menuButton",
-          }}
-        >
-          Already have an account? Log in
-        </Button>
-                
-  
+              <Link href="/login" variant="body2">
+                Already have an account? Log in
+              </Link>
             </Grid>
           </Grid>
         </form>
