@@ -63,14 +63,19 @@ function App(props) {
       <main>
         <Switch>
           <Route exact path={"/Login/"} component={Login} />
+          <Route exact path={"/bitebox-pages/Login/"} component={Login} />
           <Route exact path={"/Register/"} component={Register} />
-          <Route exact path={"/Dashboard/"} component={Dashboard} />
+          <Route exact path={"/bitebox-pages/Register/"} component={Register} />
+
           <Route
             exact
             path={"/CalorieCalculator/"}
             component={CalorieCalculator}
           />
           <AuthRoute exact path={"/Dashboard/"} component={Dashboard} />
+          <AuthRoute exact path={"/bitebox-pages/Dashboard/"} component={Dashboard} />
+          
+          <Route exact path={"/bitebox-pages/Home/"} component={Home} />
           <Route exact path={"/Home/"} component={Home} />
           <Route exact path={"/bitebox-pages/"} component={Home} />
         </Switch>
