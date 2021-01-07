@@ -72,7 +72,7 @@ function App(props) {
           />
           <AuthRoute exact path={"/Dashboard/"} component={Dashboard} />
           <Route exact path={"/Home/"} component={Home} />
-          <Route exact path={"/"} component={Home} />
+          <Route exact path={"/bitebox-pages/"} component={Home} />
         </Switch>
       </main>
       
