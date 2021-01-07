@@ -94,7 +94,7 @@ function Login(props) {
             localStorage.setItem("refresh", result.refresh);
             //redirect to dashboard
             console.log("start");
-            props.history.push("/bitebox-pages/Dashboard");
+            props.history.push("/Dashboard");
           }
         })
         .catch((error) => console.log("error", error));
