@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "react-inputs-validation/lib/react-inputs-validation.min.css";
+// import "react-inputs-validation/lib/react-inputs-validation.min.css";
 
 import "./Style.css";
 
