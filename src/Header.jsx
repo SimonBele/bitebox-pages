@@ -24,7 +24,7 @@ const headersData = [
   // },
   {
     label: "Login",
-    href: "/bitebox-pages/Login",
+    href: "/login",
   },
   // {
   //   label: "Register",
