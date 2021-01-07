@@ -263,7 +263,7 @@ export default function Register(props) {
           </Button>
           <Grid container justify="flex-end">
             <Grid item>
-              <Link href="/login" variant="body2">
+              <Link href="/bitebox-pages/login" variant="body2">
                 Already have an account? Log in
               </Link>
             </Grid>
