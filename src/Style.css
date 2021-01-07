@@ -1,0 +1,88 @@
+/*BASIC SHIT*/
+/*html {}
+body {}
+*/
+
+/*COLORS*/
+
+.MuiTypography-colorTextPrimary,
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif !important;
+  color: #303030 !important;
+}
+
+.bannerTextHeader {
+  color: #303030 !important;
+}
+.infoHeader{
+  height: 100%;
+}
+.navbar-height {
+  height: 10vh;
+}
+
+/*BOOTSTRAP RETARD FIX*/
+.navbar-brand {
+  margin-right: 0px !important;
+}
+
+/*PAGE*/
+.Page-Main {
+  background-color: #e6f4f3;
+
+  min-height: 90vh;
+}
+
+.nav-header {
+  background: #468646 !important; /* fallback for old browsers */
+
+  padding-right: 80px;
+  padding-left: 120px;
+}
+@media (max-width: 900px) {
+  .nav-header {
+    padding-left: 0;
+  }
+}
+
+.erectileDysfunction {
+  min-height: 40px;
+}
+
+.logo {
+  font-family: "Work Sans, sans-serif";
+  font-weight: 600;
+  color: #fffefe;
+  text-align: left;
+}
+.menuButton {
+  font-family: "Open Sans, sans-serif";
+  font-weight: 700;
+  size: 18px;
+  margin-left: 38px !important;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  min-height: 5vh !important;
+}
+
+.drawerContainer {
+  padding: 20px 30px;
+}
+
+.Page {
+  margin-top: 40px;
+}
+
+.scheduler-container {
+  height: 90vh;
+  width: 30vw;
+}
+
+.MuiFormControlLabel-root {
+  margin-left: 0 !important;
+  margin-right: 5px !important;
+}
