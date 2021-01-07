@@ -94,7 +94,7 @@ function Login(props) {
             localStorage.setItem("refresh", result.refresh);
             //redirect to dashboard
             console.log("start");
-            props.history.push("/Dashboard");
+            props.history.push("/bitebox-pages/Dashboard");
           }
         })
         .catch((error) => console.log("error", error));
@@ -177,7 +177,7 @@ function Login(props) {
           </Button>
           <Grid container>
             <Grid item>
-              <Link href="/register" variant="body2">
+              <Link href="/bitebox-pages/register" variant="body2">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

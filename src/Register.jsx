@@ -93,7 +93,7 @@ export default function Register(props) {
           } else {
             console.log("Created User:", result);
             console.log(props);
-            window.location.pathname = '/Login';
+            window.location.pathname = '/bitebox-pages/Login';
           }
         })
         .catch((error) => console.log("error", error));
